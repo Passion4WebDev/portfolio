@@ -1,0 +1,18 @@
+.navbar-brand {
+    font-family: 'Hahmlet', serif;
+    font-size: 35pt;
+    text-align: center;
+    text-decoration-color: blueviolet;
+    font: 1em sans-serif;
+}
+.nav-link {
+color: blue;
+font-family: 'Hahmlet', serif;
+font: bold;
+}
+
+.navbar-nav {
+    float: right;
+  }
+
+ 

@@ -1,0 +1,87 @@
+/* 
+Using multiple CSS files allows us to break up our CSS into more readable / manageable chuncks
+that portain to each section of the webpage we're working on
+we can import each CSS file we create into a 'main.css' file. this is the file that we link inside our HTML, and
+when read it imports all of the other CSS files that we import
+into the main.css file.
+*/
+
+@import "variables.css";
+@import "body.css";
+@import "navbar.css";
+@import "hearder.css";
+@import "about.css";
+@import "projects.css";
+@import "contact.css";
+@import "footer.css";
+
+.flowers {
+    background-image: url("../asset/Images/lotus.jpg");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flowers h1{
+    color: pink;
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+}
+
+.lotusFlower {
+    background-image: url("../asset/Images/lotus2-background.jpg");
+    height: 650px;
+    width: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#Aboutme {
+width: center;
+color: #162251;
+font-size: 13pt;
+font-weight: bold;
+}
+
+#head {
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+}
+
+#project {
+font-family:'Times New Roman', Times, serif;
+color: #14244B;
+font-weight: bold;
+
+}
+
+.button {
+font-size: 25pt;
+color: blue;
+font-family: 'Times New Roman', Times, serif;
+background-color: white;
+}
+
+.Resume-button {
+float: right !important;
+color: blue;
+}
+
+.collapse, .navbar-collapse {
+display: flex;
+flex-direction: row;
+justify-content: space-between !important;
+columns: blue;
+font-weight: bold;
+}
+
+.nav-left {
+display: flex;
+flex-direction: row;
+color: blue;
+font-weight: bold;
+}
