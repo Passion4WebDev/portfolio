@@ -23,27 +23,39 @@ into the main.css file.
 }
 
 .flowers h1{
-    color: pink;
+    color: hotpink;
     text-align: center;
     font-family: 'Hahmlet', serif;
 }
 
 .lotusFlower {
-    background-image: url("../asset/Images/lotus2-background.jpg");
-    height: 650px;
-    width: 1300px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("../asset/Images/lotus4-background.jpg");
+    height: 975px;
+    width: 1350px;
+    display: flex;
     background-size: cover;
+    background-image: center;
 }
 
+.profilepic {
+height: 250px;
+width: 150px;
+justify-content: flex;
+image-rendering: optimizeQuality;
+}
 
+.profilewrapper {
+width: 100%;
+display: flex;
+justify-content: center;
+}
 
 #Aboutme {
 width: center;
 color: #162251;
 font-size: 13pt;
 font-weight: bold;
+height: 100px;
 }
 
 #head {
@@ -66,17 +78,21 @@ font-family: 'Times New Roman', Times, serif;
 background-color: white;
 }
 
-.Resume-button {
-float: right !important;
-color: blue;
+#Resume-button {
+display: flex;
+}
+
+#Linkedln-button {
+display: flex;
 }
 
 .collapse, .navbar-collapse {
 display: flex;
 flex-direction: row;
-justify-content: space-between !important;
+justify-content: space-between!important;
 columns: blue;
 font-weight: bold;
+font-size: 15pt;
 }
 
 .nav-left {
@@ -84,4 +100,13 @@ display: flex;
 flex-direction: row;
 color: blue;
 font-weight: bold;
+font-size: 15pt;
 }
+
+.navright {
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    font-weight: bold;
+    font-size: 15pt;
+    }
